@@ -286,13 +286,13 @@ nnoremap <silent> <Plug>MoveCharLeft            :<C-u> silent call <SID>MoveChar
 
 
 if g:move_map_keys
-    execute 'vmap' s:VisualMoveKey('j') '<Plug>MoveBlockDown'
-    execute 'vmap' s:VisualMoveKey('k') '<Plug>MoveBlockUp'
-    execute 'vmap' s:VisualMoveKey('h') '<Plug>MoveBlockLeft'
-    execute 'vmap' s:VisualMoveKey('l') '<Plug>MoveBlockRight'
+    execute 'vmap' s:VisualMoveKey('J') '<Plug>MoveBlockDown'
+    execute 'vmap' s:VisualMoveKey('K') '<Plug>MoveBlockUp'
+    execute 'vmap' s:VisualMoveKey('H') '<Plug>MoveBlockLeft'
+    execute 'vmap' s:VisualMoveKey('L') '<Plug>MoveBlockRight'
 
-    execute 'nmap' s:MoveKey('j') '<Plug>MoveLineDown'
-    execute 'nmap' s:MoveKey('k') '<Plug>MoveLineUp'
-    execute 'nmap' s:MoveKey('h') '<Plug>MoveCharLeft'
-    execute 'nmap' s:MoveKey('l') '<Plug>MoveCharRight'
+    execute 'nmap' s:MoveKey('J') '<Plug>MoveLineDown'
+    execute 'nmap' s:MoveKey('K') '<Plug>MoveLineUp'
+    execute 'nmap' s:MoveKey('H') '<Plug>MoveCharLeft'
+    execute 'nmap' s:MoveKey('L') '<Plug>MoveCharRight'
 endif
